@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Hilo Dorado - Alquimia Cotidiana para la Vida</title>
+    <style>
+        /* ESTILOS GENERALES */
+        :root {
+            --primary: #FFD700; /* Dorado */
+            --bg-dark: #0a0e17; /* Azul Noche muy oscuro */
+            --bg-card: #151b2b; /* Azul un poco más claro */
+            --text-light: #f3f4f6;
+            --text-gray: #9ca3af;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: var(--primary);
+            line-height: 1.2;
+        }
+
+        /* HERO SECTION (ENCABEZADO) */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, rgba(10,14,23,0) 0%, rgba(21,27,43,1) 100%);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero p.subtitle {
+            font-size: 1.5rem;
+            color: var(--text-gray);
+            margin-bottom: 30px;
+        }
+
+        .book-cover {
+            max-width: 300px;
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); /* Resplandor dorado */
+            margin-bottom: 30px;
+        }
+
+        /* BOTÓN DE COMPRA (CTA) */
+        .btn-cta {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+            margin: 20px 0;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6);
+        }
+
+        /* SECCIÓN DE PROBLEMA/SOLUCIÓN */
+        .problem-solution {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .highlight {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* BENEFICIOS (LISTA) */
+        .benefits {
+            background-color: var(--bg-card);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+
+        .benefit-item {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .benefit-item::before {
+            content: "✦";
+            color: var(--primary);
+            position: absolute;
+            left: 0;
+            font-size: 1.2rem;
+        }
+
+        /* SOBRE EL AUTOR */
+        .author {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #333;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-gray);
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p.subtitle { font-size: 1.1rem; }
+            .btn-cta { width: 100%; box-sizing: border-box; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="container">
+            <p style="color: #fff; font-size: 0.9rem; letter-spacing: 1px;">MAGIA BLANCA PRÁCTICA PARA EL MUNDO MODERNO</p>
+            <h1>EL HILO DORADO</h1>
+            <p class="subtitle">Alquimia Cotidiana para la Vida</p>
+            
+            <img src="spanish.png" alt="Portada del Libro El Hilo Dorado" class="book-cover">
+            
+            <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px;">
+                Deja de buscar la llave de tu felicidad en montañas lejanas. La llave ya la tienes en el bolsillo, solo necesitas recordar cómo usarla.
+            </p>
+
+            <a href="TU_LINK_DE_HOTMART_AQUI" class="btn-cta">QUIERO EMPEZAR A LEER AHORA</a>
+            <p style="font-size: 0.8rem; color: var(--text-gray);">📥 Descarga Inmediata y Segura</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="problem-solution">
+            <h2>¿Sientes que nadas contra la corriente?</h2>
+            <p>
+                Quizás buscas amor, abundancia o paz mental, pero parece que siempre están un paso más allá de tu alcance. Te han dicho que tienes que esforzarte más, sufrir más.
+            </p>
+            <p>
+                La verdad es que la magia no son efectos especiales. <span class="highlight">La verdadera magia es Intención + Emoción + Acción.</span>
+            </p>
+        </div>
+
+        <div class="benefits">
+            <h2 style="text-align: center;">Lo que descubrirás dentro del libro:</h2>
+            <div class="benefit-item">
+                <strong>Resetear tu Hogar:</strong> Técnicas de limpieza energética con ingredientes simples de tu cocina para que la suerte vuelva a entrar (Capítulo 1).
+            </div>
+            <div class="benefit-item">
+                <strong>Sanar tu Economía:</strong> El ritual de la "Semilla en el Monedero" y cómo crear un flujo de abundancia sin culpa (Capítulo 5).
+            </div>
+            <div class="benefit-item">
+                <strong>Atraer Amor Real:</strong> Baños de dulzura y la magia de los "Nudos de Miel" para elevar tu autoestima y magnetismo (Capítulo 3).
+            </div>
+            <div class="benefit-item">
+                <strong>Proteger tu Energía:</strong> Crea un escudo invisible contra la envidia, el "mal de ojo" y el agotamiento emocional (Capítulo 9).
+            </div>
+            <div class="benefit-item">
+                <strong>Recuperar tu Vitalidad:</strong> Pócimas naturales y respiraciones para un cuerpo sano y radiante (Capítulo 8).
+            </div>
+        </div>
+
+        <div class="problem-solution">
+            <h2>Deja de esperar un milagro. Empieza a ser uno.</h2>
+            <p>
+                "El Hilo Dorado" es una guía de campo práctica y moderna. Sin dogmas pesados, sin supersticiones. Solo tú recuperando tu poder personal.
+            </p>
+            
+            <a href="TU_LINK_DE_HOTMART_AQUI" class="btn-cta">COMPRAR AHORA</a>
+        </div>
+
+        <div class="author">
+            <h3>Sobre el Autor</h3>
+            <p>Investigador, viajero y apasionado por conectar las tradiciones antiguas con la vida moderna. Con más de 20 años recopilando sabiduría desde los zocos de Marrakech hasta los Andes, este libro es la destilación de lo que realmente funciona.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 El Hilo Dorado. Todos los derechos reservados.</p>
+        <p>Este producto no garantiza la obtención de resultados. Cualquier referencia al desempeño de una estrategia no debe ser interpretada como una garantía de resultados.</p>
+    </footer>
+
+</body>
+</html>
